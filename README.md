@@ -1,5 +1,4 @@
-# Antigravity-CN-Localizer 🇨🇳 
-(Antigravity 2.0 桌面端深度中文化套件)
+# Antigravity-CN-Localizer 🇨🇳 (Antigravity 汉化深度桌面端套件)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Antigravity-2.0%2B-blue?style=flat-square" alt="Antigravity Version" />

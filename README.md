@@ -1,4 +1,5 @@
-# Antigravity-CN-Localizer 🇨🇳 (Antigravity 2.0 桌面端深度中文化套件)
+# Antigravity-CN-Localizer 🇨🇳 
+(Antigravity 2.0 桌面端深度中文化套件)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Antigravity-2.0%2B-blue?style=flat-square" alt="Antigravity Version" />
@@ -11,15 +12,6 @@
 
 ---
 
-## ✨ 核心特性
-
-- 🚀 **极速无阻塞引擎 (v2.6)**：基于 `WeakMap` 与 `childList` 增量变动监听，彻底解决打开系统设置面板时 100% CPU 假死卡顿问题，性能零损耗。
-- 🖱️ **原生右键菜单深度汉化**：深度拦截 Electron 主进程 IPC 管道，完美汉化会话列表原生右键菜单（`重命名`、`固定`、`标记为未读`、`复制 (会话名称/会话 ID/项目名称)`、`分屏`、`归档`、`删除` 等）。
-- 🛡️ **执行策略全景汉化**：底部运行模式全面本地化（`极速模式 (Turbo)`、`请求审查 (Request Review)`、`默认标准` 及所有安全说明文案）。
-- ⚡ **斜杠指令与技能描述**：全面汉化输入框快捷命令（`/goal`, `/schedule`, `/browser`, `/grill-me`, `/teamwork-preview`, `/learn`, `/boost`）与内置技能的长文本说明。
-- 🔄 **自愈防覆盖与一键还原**：自动生成 `.bak` 备份文件，提供一键还原脚本，随时无损秒级恢复官方原版英文界面。
-
----
 
 ## 快速使用
 
@@ -30,6 +22,7 @@
 1. 从 [Releases 最新发布页](https://github.com/Kekeyo/antigravity-cn-localizer/releases/latest) 下载 **`Antigravity-CN-v2.6-Setup.zip`**（仅 3.4 MB）；
 2. 解压到任意文件夹，双击运行 **`一键安装中文版.bat`**；
 3. **完成！** 程序将全自动备份原版并注入汉化，同时在您的电脑桌面上自动生成 **`Antigravity (中文版)`** 图标，点击即可随时启动中文版！
+
 
 ---
 
@@ -100,6 +93,14 @@ antigravity-cn-localizer/
 ├── package.json
 └── README.md
 ```
+
+## ✨ 核心特性
+
+- 🚀 **极速无阻塞引擎 (v2.6)**：基于 `WeakMap` 与 `childList` 增量变动监听，彻底解决打开系统设置面板时 100% CPU 假死卡顿问题，性能零损耗。
+- 🖱️ **原生右键菜单深度汉化**：深度拦截 Electron 主进程 IPC 管道，完美汉化会话列表原生右键菜单（`重命名`、`固定`、`标记为未读`、`复制 (会话名称/会话 ID/项目名称)`、`分屏`、`归档`、`删除` 等）。
+- 🛡️ **执行策略全景汉化**：底部运行模式全面本地化（`极速模式 (Turbo)`、`请求审查 (Request Review)`、`默认标准` 及所有安全说明文案）。
+- ⚡ **斜杠指令与技能描述**：全面汉化输入框快捷命令（`/goal`, `/schedule`, `/browser`, `/grill-me`, `/teamwork-preview`, `/learn`, `/boost`）与内置技能的长文本说明。
+- 🔄 **自愈防覆盖与一键还原**：自动生成 `.bak` 备份文件，提供一键还原脚本，随时无损秒级恢复官方原版英文界面。
 
 ---
 

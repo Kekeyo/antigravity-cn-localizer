@@ -1,0 +1,31 @@
+{
+  "name": "antigravity-cn-localizer",
+  "version": "1.0.0",
+  "description": "Google Antigravity & Antigravity IDE 深度中文化套件与一键工具",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "localize:ide": "node src/index.js --target=ide",
+    "localize:app": "node src/index.js --target=app",
+    "localize:skills": "node src/index.js --target=skills",
+    "localize:rules": "node src/index.js --target=rules",
+    "localize:all": "node src/index.js --target=all",
+    "restore:ide": "node src/index.js --restore=ide",
+    "restore:app": "node src/index.js --restore=app",
+    "restore:skills": "node src/index.js --restore=skills",
+    "restore:all": "node src/index.js --restore=all"
+  },
+  "keywords": [
+    "antigravity",
+    "antigravity-ide",
+    "chinese-localization",
+    "i18n",
+    "jetski"
+  ],
+  "author": "Antigravity Community",
+  "license": "MIT",
+  "dependencies": {
+    "@electron/asar": "^4.3.0"
+  }
+}

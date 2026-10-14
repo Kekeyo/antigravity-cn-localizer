@@ -1,0 +1,38 @@
+{
+  "commands": {
+    "Log in to IDE": "登录 IDE",
+    "Provide Auth Token (Backup Login)": "输入认证令牌（备用登录）",
+    "Import VS Code settings": "导入 VS Code 设置",
+    "Import VS Code extensions": "导入 VS Code 扩展插件",
+    "Import VS Code recent workspaces": "导入 VS Code 最近工作区",
+    "Import Cursor settings": "导入 Cursor 设置",
+    "Import Cursor extensions": "导入 Cursor 扩展插件",
+    "Import Windsurf settings": "导入 Windsurf 设置",
+    "Import Windsurf extensions": "导入 Windsurf 扩展插件",
+    "Generate Commit Message": "自动生成 Git 提交信息",
+    "Restart Language Server": "重启智能语言服务器 (Language Server)",
+    "Kill Language Server and Reload Window": "终止语言服务器并重载窗口",
+    "Toggle Persistent Language Server and Reload Window": "切换持久化语言服务器并重载窗口",
+    "Open Persistent Language Server Log": "查看语言服务器后台日志",
+    "Copy API Key to Clipboard": "复制 API 密钥到剪贴板",
+    "Open Changelog": "查看版本更新日志",
+    "Open Browser": "打开内置智能体浏览器",
+    "Show Browser Allowlist": "查看浏览器访问白名单",
+    "Kill Extension Host on Remote Server": "终止远程服务器扩展宿主",
+    "Import Cider settings": "导入 Cider 设置",
+    "[Beta] Start Demo Mode": "[公测] 开启演示模式",
+    "[Beta] End Demo Mode": "[公测] 关闭演示模式"
+  },
+  "configuration": {
+    "Antigravity Editor": "Antigravity 编辑器设置",
+    "Changes the base URL for marketplace search results. [Available Options](https://github.com/VSCodium/vscodium/blob/master/docs/index.md#extensions-marketplace). You must restart Antigravity to use the new marketplace after changing this value.": "修改插件市场搜索的基础服务地址。修改后需重启 Antigravity 生效。",
+    "Changes the base URL on each extension page. [Available Options](https://github.com/VSCodium/vscodium/blob/master/docs/index.md#extensions-marketplace). You must restart Antigravity to use the new marketplace after changing this value.": "修改每个插件详情页的基础地址。修改后需重启 Antigravity 生效。",
+    "Jetski will attempt to compute embeddings for workspaces up to this many files. This file count ignores .gitignore and binary files. Raising this limit from the default value may lead to performance issues. Values 0 or below will be treated as unlimited.": "Antigravity 将为工作区内不超过此文件数量的代码计算向量索引（忽略 .gitignore 和二进制文件）。增大此限制可能影响性能。小于等于0表示不限制。",
+    "Enable the Cursor-import commands in the palette": "在命令面板中启用 Cursor 配置导入命令",
+    "Keep the Language Server running after the editor is closed.": "在编辑器窗口关闭后仍保持后台语言服务器常驻运行。"
+  },
+  "editors": {
+    "Workflow Editor": "工作流可视化编辑器",
+    "Rule Editor": "智能体规则编辑器"
+  }
+}

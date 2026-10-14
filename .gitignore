@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build and temporary files
+*.log
+*.tmp
+*.bak
+*.asar
+temp/
+.cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE configs
+.vscode/
+.idea/

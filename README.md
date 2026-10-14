@@ -25,16 +25,24 @@
 
 提供两种最便捷的使用方式，无论是否具备开发基础均可轻松上手：
 
-### 方式一：小白极简模式（无需代码，10秒搞定）
+### 方式一：一键自动安装包（⭐ 最推荐，自动创建桌面中文版图标）
 
-1. 完全退出 Antigravity 应用（右下角托盘图标也右键退出）；
-2. 键盘按下 `Win + R` 键，输入并回车打开目录：
+1. 从 [Releases 最新发布页](https://github.com/Kekeyo/antigravity-cn-localizer/releases/latest) 下载 **`Antigravity-CN-v2.6-Setup.zip`**（仅 3.4 MB）；
+2. 解压到任意文件夹，双击运行 **`一键安装中文版.bat`**；
+3. **完成！** 程序将全自动备份原版并注入汉化，同时在您的电脑桌面上自动生成 **`Antigravity (中文版)`** 图标，点击即可随时启动中文版！
+
+---
+
+### 方式二：手动替换 app.asar 方式
+
+1. 从 Releases 下载 `app.asar`；
+2. 完全退出 Antigravity 应用；
+3. 键盘按 `Win + R` 键，输入并回车打开目录：
    ```text
    %LOCALAPPDATA%\Programs\antigravity\resources
    ```
-3. 将目录里的原版 `app.asar` 重命名为 `app.asar.bak` 作为备份；
-4. 将本仓库发布的汉化版 `app.asar` 复制替换进去；
-5. 重新打开 Antigravity，即可立享全中文界面！
+4. 将目录里的原版 `app.asar` 重命名为 `app.asar.bak` 作为备份；
+5. 将下载的 `app.asar` 复制替换进去即可。
 
 ---
 
